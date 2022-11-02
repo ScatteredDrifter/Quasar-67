@@ -4059,7 +4059,7 @@
     (property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf" (id 3) (at 74.9431 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C3015484" (id 4) (at 74.9431 176.53 0)
+    (property "LCSC" "C347376" (id 4) (at 74.9431 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 81a8f219-6a0a-47e4-913b-d2fff8f3c98d))
