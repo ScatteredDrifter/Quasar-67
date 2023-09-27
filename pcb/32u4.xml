@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/evelyn/Nextcloud/tech-cluster/KEYBOARDS/__own_designs/Quasar-67_rp2040/pcb/32u4.kicad_sch</source>
-    <date>Tue 26 Sep 2023 21:01:59 CEST</date>
+    <date>Thu 28 Sep 2023 00:01:22 CEST</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -57,6 +57,38 @@
       <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0665c844-75de-4413-85e3-8b98f0e71e4c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978 </field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="32u4.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d7946cb-139c-47b6-aafa-d4a9842e3961</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978 </field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="32u4.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b73138d1-f35a-4b3c-81f1-7d1f2b3ecd71</tstamps>
     </comp>
     <comp ref="D55">
       <value>BAV70</value>
@@ -819,6 +851,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6467b73a-5979-47b6-aefb-1b04f76f1f74</tstamps>
     </comp>
+    <comp ref="SW12">
+      <value>SW_SPST</value>
+      <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="32u4.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80f53cff-b1e1-4862-abfb-e479a74a3e68</tstamps>
+    </comp>
     <comp ref="SW13">
       <value>SW_SPST</value>
       <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
@@ -1149,6 +1192,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3cf7ff4e-6eda-4ad4-b405-c3a18b1dc0d3</tstamps>
     </comp>
+    <comp ref="SW43">
+      <value>SW_SPST</value>
+      <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="32u4.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7ffe471-e558-41b5-b07a-7064104a50e8</tstamps>
+    </comp>
     <comp ref="SW44">
       <value>SW_SPST</value>
       <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
@@ -1193,6 +1247,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d26a0fc9-5b19-4dd5-84f8-8f657e2b2349</tstamps>
     </comp>
+    <comp ref="SW48">
+      <value>SW_SPST</value>
+      <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="32u4.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>153ef3a2-5fc2-4341-a611-13c0d29245e8</tstamps>
+    </comp>
     <comp ref="SW49">
       <value>SW_SPST</value>
       <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
@@ -1203,6 +1268,50 @@
       <property name="ki_keywords" value="switch lever"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>af74c443-800e-4b7c-a2a9-f20deb92ac02</tstamps>
+    </comp>
+    <comp ref="SW50">
+      <value>SW_SPST</value>
+      <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="32u4.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4925a338-3efd-4678-b6c2-08f925c5ff6d</tstamps>
+    </comp>
+    <comp ref="SW51">
+      <value>SW_SPST</value>
+      <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="32u4.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7021670-303b-4892-a658-835bdab9bc43</tstamps>
+    </comp>
+    <comp ref="SW52">
+      <value>SW_SPST</value>
+      <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="32u4.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d0801e4-4357-4abe-bb8f-0f7d6511d56e</tstamps>
+    </comp>
+    <comp ref="SW53">
+      <value>SW_SPST</value>
+      <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="32u4.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee3839ba-8aa4-4cc5-b763-816f1c4592a6</tstamps>
     </comp>
     <comp ref="SW55">
       <value>SW_SPST</value>
@@ -1225,6 +1334,17 @@
       <property name="ki_keywords" value="switch lever"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1428f969-e3e3-43ba-8ee0-9caaf8d9637a</tstamps>
+    </comp>
+    <comp ref="SW57">
+      <value>SW_SPST</value>
+      <footprint>Keebio-Parts:MX-Alps-Choc-1U-NoLED</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="32u4.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b815a124-af7a-4a23-98c6-3b5569d0b0b2</tstamps>
     </comp>
     <comp ref="SW110">
       <value>SW_SPST</value>
@@ -2436,6 +2556,7 @@
     </net>
     <net code="24" name="COL2">
       <node ref="SW1.2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW22" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW32" pin="2" pinfunction="B" pintype="passive"/>
@@ -2447,6 +2568,7 @@
       <node ref="SW23" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW3" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW33" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW48" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U3" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
     </net>
     <net code="26" name="COL4">
@@ -2455,6 +2577,7 @@
       <node ref="SW34" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW4" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW44" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW51" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U3" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
     </net>
     <net code="27" name="COL5">
@@ -2484,6 +2607,7 @@
       <node ref="SW27" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW37" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW47" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW57" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW7" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U3" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
     </net>
@@ -2491,6 +2615,7 @@
       <node ref="SW18" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW28" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW38" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW53" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW8" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U3" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
     </net>
@@ -2499,6 +2624,7 @@
       <node ref="SW29" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW39" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW49" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW52" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW9" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U3" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
     </net>
@@ -2507,6 +2633,7 @@
       <node ref="SW110" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW210" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW310" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW50" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U3" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
     </net>
     <net code="33" name="COL11">
@@ -2515,6 +2642,7 @@
       <node ref="SW211" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW311" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="SW411" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW43" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U3" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
     </net>
     <net code="34" name="COL12">
@@ -2693,121 +2821,123 @@
       <node ref="D10011" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW11" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="66" name="Net-(SW13-A)">
+    <net code="66" name="Net-(SW12-A)">
+      <node ref="D4243" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW12" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW42" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(SW13-A)">
       <node ref="D1213" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW13" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(SW14-A)">
+    <net code="68" name="Net-(SW14-A)">
       <node ref="D1415" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW14" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(SW17-A)">
+    <net code="69" name="Net-(SW17-A)">
       <node ref="D1617" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW17" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="69" name="Net-(SW18-A)">
+    <net code="70" name="Net-(SW18-A)">
       <node ref="D1819" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW18" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="70" name="Net-(SW19-A)">
+    <net code="71" name="Net-(SW19-A)">
       <node ref="D1819" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW19" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(SW20-A)">
+    <net code="72" name="Net-(SW20-A)">
       <node ref="D2021" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW20" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="72" name="Net-(SW21-A)">
+    <net code="73" name="Net-(SW21-A)">
       <node ref="D2021" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW21" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(SW22-A)">
+    <net code="74" name="Net-(SW22-A)">
       <node ref="D2223" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW22" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(SW23-A)">
+    <net code="75" name="Net-(SW23-A)">
       <node ref="D2223" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW23" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(SW24-A)">
+    <net code="76" name="Net-(SW24-A)">
       <node ref="D2425" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW24" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(SW25-A)">
+    <net code="77" name="Net-(SW25-A)">
       <node ref="D2425" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW25" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(SW26-A)">
+    <net code="78" name="Net-(SW26-A)">
       <node ref="D2627" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW26" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(SW27-A)">
+    <net code="79" name="Net-(SW27-A)">
       <node ref="D2627" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW27" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(SW28-A)">
+    <net code="80" name="Net-(SW28-A)">
       <node ref="D2829" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW28" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(SW29-A)">
+    <net code="81" name="Net-(SW29-A)">
       <node ref="D2829" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW29" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="81" name="Net-(SW30-A)">
+    <net code="82" name="Net-(SW30-A)">
       <node ref="D3031" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW30" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(SW31-A)">
+    <net code="83" name="Net-(SW31-A)">
       <node ref="D3031" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW31" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="83" name="Net-(SW32-A)">
+    <net code="84" name="Net-(SW32-A)">
       <node ref="D3233" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW32" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(SW33-A)">
+    <net code="85" name="Net-(SW33-A)">
       <node ref="D3233" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW33" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="85" name="Net-(SW34-A)">
+    <net code="86" name="Net-(SW34-A)">
       <node ref="D3435" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW34" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="86" name="Net-(SW35-A)">
+    <net code="87" name="Net-(SW35-A)">
       <node ref="D3435" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW35" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(SW36-A)">
+    <net code="88" name="Net-(SW36-A)">
       <node ref="D3637" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW36" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="88" name="Net-(SW37-A)">
+    <net code="89" name="Net-(SW37-A)">
       <node ref="D3637" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW37" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="89" name="Net-(SW38-A)">
+    <net code="90" name="Net-(SW38-A)">
       <node ref="D3839" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW38" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="90" name="Net-(SW39-A)">
+    <net code="91" name="Net-(SW39-A)">
       <node ref="D3839" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW39" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="91" name="Net-(SW40-A)">
+    <net code="92" name="Net-(SW40-A)">
       <node ref="D4041" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW40" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="92" name="Net-(SW41-A)">
+    <net code="93" name="Net-(SW41-A)">
       <node ref="D4041" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW41" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="93" name="Net-(SW42-A)">
-      <node ref="D4243" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="SW42" pin="1" pinfunction="A" pintype="passive"/>
-    </net>
     <net code="94" name="Net-(SW44-A)">
-      <node ref="D4243" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW44" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW51" pin="1" pinfunction="A" pintype="passive"/>
     </net>
     <net code="95" name="Net-(SW45-A)">
       <node ref="D4445" pin="2" pinfunction="A" pintype="passive"/>
@@ -2820,56 +2950,71 @@
     <net code="97" name="Net-(SW47-A)">
       <node ref="D4647" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW47" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW57" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="98" name="Net-(SW49-A)">
-      <node ref="D410411" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="98" name="Net-(SW48-A)">
+      <node ref="D4243" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW48" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(SW49-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW49" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW52" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="99" name="Net-(SW55-A)">
+    <net code="100" name="Net-(SW50-A)">
+      <node ref="D410411" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW50" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(SW53-A)">
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW53" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(SW55-A)">
       <node ref="D55" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW55" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="100" name="Net-(SW56-A)">
+    <net code="103" name="Net-(SW56-A)">
       <node ref="D55" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW56" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="101" name="Net-(SW110-A)">
+    <net code="104" name="Net-(SW110-A)">
       <node ref="D110111" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW110" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="102" name="Net-(SW111-A)">
+    <net code="105" name="Net-(SW111-A)">
       <node ref="D110111" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW111" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="103" name="Net-(SW210-A)">
+    <net code="106" name="Net-(SW210-A)">
       <node ref="D210211" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW210" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="104" name="Net-(SW211-A)">
+    <net code="107" name="Net-(SW211-A)">
       <node ref="D210211" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW211" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="105" name="Net-(SW310-A)">
+    <net code="108" name="Net-(SW310-A)">
       <node ref="D310311" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW310" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="106" name="Net-(SW311-A)">
+    <net code="109" name="Net-(SW311-A)">
       <node ref="D310311" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW311" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="107" name="Net-(SW411-A)">
+    <net code="110" name="Net-(SW411-A)">
       <node ref="D410411" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW411" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW43" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="108" name="Net-(U3-USB_DM)">
+    <net code="111" name="Net-(U3-USB_DM)">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U3" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
     </net>
-    <net code="109" name="Net-(U3-USB_DP)">
+    <net code="112" name="Net-(U3-USB_DP)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U3" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
-    <net code="110" name="ROW0">
+    <net code="113" name="ROW0">
       <node ref="D1" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D10011" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D203" pin="3" pinfunction="K" pintype="passive"/>
@@ -2878,7 +3023,7 @@
       <node ref="D809" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
     </net>
-    <net code="111" name="ROW1">
+    <net code="114" name="ROW1">
       <node ref="D1011" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D110111" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D1213" pin="3" pinfunction="K" pintype="passive"/>
@@ -2887,7 +3032,7 @@
       <node ref="D1819" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
     </net>
-    <net code="112" name="ROW2">
+    <net code="115" name="ROW2">
       <node ref="D2021" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D210211" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D2223" pin="3" pinfunction="K" pintype="passive"/>
@@ -2896,7 +3041,7 @@
       <node ref="D2829" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
     </net>
-    <net code="113" name="ROW3">
+    <net code="116" name="ROW3">
       <node ref="D3031" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D310311" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D3233" pin="3" pinfunction="K" pintype="passive"/>
@@ -2905,7 +3050,9 @@
       <node ref="D3839" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
     </net>
-    <net code="114" name="ROW4">
+    <net code="117" name="ROW4">
+      <node ref="D2" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D4041" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D410411" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D4243" pin="3" pinfunction="K" pintype="passive"/>
@@ -2913,20 +3060,20 @@
       <node ref="D4647" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
     </net>
-    <net code="115" name="ROW5">
+    <net code="118" name="ROW5">
       <node ref="D55" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D56" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
     </net>
-    <net code="116" name="SCL">
+    <net code="119" name="SCL">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
     </net>
-    <net code="117" name="SDA">
+    <net code="120" name="SDA">
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
     </net>
-    <net code="118" name="VBUS">
+    <net code="121" name="VBUS">
       <node ref="F0" pin="1" pintype="passive"/>
       <node ref="J0" pin="A4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J0" pin="A9" pinfunction="VBUS" pintype="passive"/>
@@ -2935,32 +3082,35 @@
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="119" name="enc-left-row">
+    <net code="122" name="enc-left-row">
       <node ref="D1415" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="ENCODERLEFT2" pin="S1" pinfunction="S1" pintype="passive"/>
       <node ref="SW15" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="120" name="enc-right-row">
+    <net code="123" name="enc-right-row">
       <node ref="D1617" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="ENCODERRIGHT2" pin="S1" pinfunction="S1" pintype="passive"/>
       <node ref="SW16" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="121" name="unconnected-(D4647-A-Pad1)">
+    <net code="124" name="unconnected-(D3-A-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="125" name="unconnected-(D4647-A-Pad1)">
       <node ref="D4647" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="122" name="unconnected-(DLED4-DOUT-Pad2)">
+    <net code="126" name="unconnected-(DLED4-DOUT-Pad2)">
       <node ref="DLED4" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
     </net>
-    <net code="123" name="unconnected-(J0-SBU1-PadA8)">
+    <net code="127" name="unconnected-(J0-SBU1-PadA8)">
       <node ref="J0" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="124" name="unconnected-(J0-SBU2-PadB8)">
+    <net code="128" name="unconnected-(J0-SBU2-PadB8)">
       <node ref="J0" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="125" name="unconnected-(U44-IO1-Pad1)">
+    <net code="129" name="unconnected-(U44-IO1-Pad1)">
       <node ref="U44" pin="1" pinfunction="IO1" pintype="passive"/>
     </net>
-    <net code="126" name="unconnected-(U44-IO4-Pad6)">
+    <net code="130" name="unconnected-(U44-IO4-Pad6)">
       <node ref="U44" pin="6" pinfunction="IO4" pintype="passive"/>
     </net>
   </nets>

@@ -1,4 +1,4 @@
-21587280866347565
+22793468062592924
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93743,6 +93743,34 @@ USB USB_B USB_micro USB_OTG
 0
 17
 6
+silkscreens
+Clacktales_9mm_whiteSilk
+
+
+0
+0
+0
+silkscreens
+Clacktales_21mm_blackSilk
+
+
+0
+0
+0
+silkscreens
+Clacktales_21mm_whiteSilk
+
+
+0
+0
+0
+silkscreens
+Clacktales_21mm_whiteSilk_withoutOutline
+
+
+0
+0
+0
 silkscreens
 iss_test
 

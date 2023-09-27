@@ -1,4 +1,4 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"Breakout_USB >>","Conn_01x04_Male","PinSocket_1x04_P2.54mm_Vertical",38.165000,-61.540000,180.000000,bottom
 "J0","USB_C_Receptacle_USB2.0","USB_C_Receptacle_HRO_TYPE-C-31-M-12",36.530000,-26.590000,0.000000,bottom
 "J3","Conn_01x04_Male","Aio3_jst",23.900000,-65.360000,0.000000,bottom
+"J6","Conn_01x04_Male","PinSocket_1x04_P2.54mm_Vertical",38.165000,-61.540000,180.000000,bottom
