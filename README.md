@@ -74,5 +74,13 @@ Once we have **Revision V²** in person, we will update these images.
 
 **Images** taken from KiCad:
 
+
+#### Revision V²:
 ![image of pcb front](images/pcb_front.jpg)
 ![image of pcb back](images/pcb_back.jpg)
+
+#### Revision V¹:
+![image of pcb back](images/rev1_back_pcb.jpg)
+![image of front pcb](images/rev1_front_pcb.jpg)
+![image of pcb in case](images/rev1_front_in_case.jpg)
+![image of pcb with leds active](images/rev1_front_in_case_led.jpg)
